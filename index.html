@@ -26,7 +26,9 @@
     
     <!-- FontAwesome JS -->
     <script defer src="assets/fontawesome/js/all.js"></script>
-    
+
+    <!--    Academicons-->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
     
@@ -67,10 +69,12 @@
     <!-- ******HEADER****** --> 
     <header class="header">
         <div class="container clearfix">                       
-            <img class="profile-image img-fluid float-left" src="assets/images/profile.jpg" alt="Michał Kuźba" width="180"/>
-            <div class="profile-content float-left">
+            <img class="profile-image img-fluid float-left" src="assets/images/profile.jpg" alt="Michał Kuźba" width="188"/>
+
+            <div class="profile-content ">
                 <h1 class="name">Michał Kuźba</h1>
                 <h2 class="desc">Machine Learning Researcher & CS student </h2>
+                <div>
                 <ul class="social list-inline">
                     <li class="list-inline-item"><a href="https://www.linkedin.com/in/michalkuzba/"><i class="fab fa-linkedin-in"></i></a></li>
                     <li class="list-inline-item"><a href="https://twitter.com/m_kuzba"><i class="fab fa-twitter"></i></a></li>
@@ -82,16 +86,43 @@
 
                     <li class="list-inline-item"><a href="https://www.researchgate.net/profile/Michal_Kuzba"><i class="fab fa-researchgate"></i></a></li>
                     <li class="list-inline-item"><a href="https://orcid.org/0000-0002-9181-0126"><i class="fab fa-orcid"></i></a></li>
-<!--                    <li class="list-inline-item"><a href="https://scholar.google.com/citations?user=9RU1uwcAAAAJ&hl=en"><i class="fab fa-google"></i></a></li>-->
+<!--                    <li class="list-inline-item"><a href="https://scholar.google.com/citations?user=9RU1uwcAAAAJ&hl=en"><i class="ai ai-google-scholar ai-2x"></i></a></li>-->
 <!--                    <li class="list-inline-item"><a href="https://mi2-warsaw.github.io/"><i class="fab fa-university"></i></a></li>-->
 
 
                     <!--                    <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li>   -->
 <!--                    <li class="list-inline-item last-item"><a href="#"><i class="fab fa-codepen"></i></a></li>                -->
-                </ul> 
+                </ul>
+                <a class="btn btn-cta-secondary"
+                   href="https://docs.google.com/forms/d/e/1FAIpQLSdQUGA77DS4pRRoZnhwHosl005Uu9qy2HuiPr0o6o9cnAbJyg/viewform?usp=sf_link"
+                   target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>
+                </div>
             </div><!--//profile-->
-            <a class="btn btn-cta-primary float-right" href="https://themes.3rdwavemedia.com/" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>
+
+
+<!--            <div class="profile-content">-->
+<!--                <a class="btn btn-cta-primary float-left"-->
+<!--                   href="#"-->
+<!--                > Home </a>-->
+<!--                <a class="btn btn-cta-primary float-left"-->
+<!--                   href="#"> Posts </a>-->
+<!--                <a class="btn btn-cta-primary float-left"-->
+<!--                   href="#"> Research </a>-->
+<!--                <a class="btn btn-cta-primary float-left"-->
+<!--                   href="#"-->
+<!--                > Projects </a>-->
+<!--                <a class="btn btn-cta-primary float-left"-->
+<!--                   href="#"-->
+<!--                > Resume </a>-->
+<!--                <a class="btn btn-cta-primary float-left"-->
+<!--                   href="#"-->
+<!--                > Links </a>-->
+<!--                <a class="btn btn-cta-primary float-left"-->
+<!--                   href="#"-->
+<!--                > Hobbies </a>-->
+<!--            </div>-->
         </div><!--//container-->
+
 
         <!--        LinkedIn badge-->
         <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
@@ -131,14 +162,20 @@
                 </section>
 
                 <section class="about section">
-                    <div class="section-inner">
-                        <div class="content">
-                            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6645656917345607682"
-                                    allowfullscreen="" title="Embedded post" width="90%" height="600" frameborder="0"></iframe>
 
-                        </div>
-                    </div>
+                        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6645656917345607682"
+                                allowfullscreen="" title="Embedded post"  frameborder="0" width="100%" height="400"></iframe>
+
                 </section>
+
+                <section class="about section">
+
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6638042681949868032"
+                            allowfullscreen="" title="Embedded post" width="100%" height="430" frameborder="0"></iframe>
+
+                </section>
+
+
 
 
                 <!--               <section class="latest section">-->
@@ -278,8 +315,8 @@
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Warsaw, Poland</li>
-                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">kuzba.michal at gmail.com</a></li>
-<!--                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">https://www.website.com</a></li> -->
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span>kuzba.michal(at)gmail.com</a></li>
+                              <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">https://mi2-warsaw.github.io/</a></li>
                             </ul>
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
@@ -312,70 +349,81 @@
                                 Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Coderwall profile so people can get more info there.</p>
                             
                             <div class="skillset">
-                               
+
                                 <div class="item">
-                                    <h3 class="level-title">Python &amp; Django<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <h3 class="level-title">Machine Learning<span class="level-label"
+                                                                                     data-toggle="tooltip"
+                                                                                     data-placement="left"
+                                                                                     data-animation="true"
+                                                                                     title="You can use the tooltip to explain more about your skill level..."><i
+                                            class="fas fa-info-circle"></i>Expert</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="96%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
+                                        </div>
+                                    </div><!--//level-bar-->
                                 </div><!--//item-->
-                                
+
                                 <div class="item">
-                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <h3 class="level-title">Python<span class="level-label"
+                                                                                         data-toggle="tooltip"
+                                                                                         data-placement="left"
+                                                                                         data-animation="true"
+                                                                                         title="You can use the tooltip to explain more about your skill level..."><i
+                                            class="fas fa-info-circle"></i>Expert</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="96%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
+                                        </div>
+                                    </div><!--//level-bar-->
                                 </div><!--//item-->
-                                
+
                                 <div class="item">
-                                    <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <h3 class="level-title">C/C++<span class="level-label"
+                                                                                              data-toggle="tooltip"
+                                                                                              data-placement="left"
+                                                                                              data-animation="true"
+                                                                                              title="You can use the tooltip to explain more about your skill level..."><i
+                                            class="fas fa-info-circle"></i>Expert</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="96%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
+                                        </div>
+                                    </div><!--//level-bar-->
                                 </div><!--//item-->
-                                
+
                                 <div class="item">
-                                    <h3 class="level-title">Ruby on Rails<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <h3 class="level-title">Data Science<span class="level-label" data-toggle="tooltip"
+                                                                               data-placement="left"
+                                                                               data-animation="true"
+                                                                               title="You can use the tooltip to explain more about your skill level..."><i
+                                            class="fas fa-info-circle"></i>Pro</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="85%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
+                                        </div>
+                                    </div><!--//level-bar-->
                                 </div><!--//item-->
                                 
-                                <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Coderwall</a></p> 
+                                <p><a class="more-link" href="https://www.linkedin.com/in/michalkuzba/"><i class="fas fa-external-link-alt"></i>More on LinkedIn</a></p>
                             </div>              
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </aside><!--//section-->
-                
-                <aside class="testimonials aside section">
-                    <div class="section-inner">
-                        <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="pl_PL"
-                             data-type="horizontal" data-theme="light" data-vanity="michalkuzba"><a
-                                class="LI-simple-link" href='https://pl.linkedin.com/in/michalkuzba?trk=profile-badge'>
-                            Michał
-                            Kuźba</a></div>
-                </aside><!--//section-->
+
                 
                 <aside class="education aside section">
                     <div class="section-inner">
                         <h2 class="heading">Education</h2>
                         <div class="content">
-                            <div class="item">                      
+                            <div class="item">
                                 <h3 class="title"><i class="fas fa-graduation-cap"></i> MSc Computer Science</h3>
-                                <h4 class="university">University College London <span class="year">(2011-2012)</span></h4>
+                                <h4 class="university">University of Warsaw <span class="year">(2018-)</span></h4>
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title"><i class="fas fa-graduation-cap"></i> BSc Computer Science</h3>
-                                <h4 class="university">University of Bristol <span class="year">(2008-2011)</span></h4>
+                                <h4 class="university">University of Warsaw <span class="year">(2015-2018)</span></h4>
                             </div><!--//item-->
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
-                            
+
 <!--                <aside class="languages aside section">-->
 <!--                    <div class="section-inner">-->
 <!--                        <h2 class="heading">Languages</h2>-->
