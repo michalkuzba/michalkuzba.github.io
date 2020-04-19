@@ -62,6 +62,8 @@
                 }
             })});
     </script>
+    <!--    jquery-->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 </head> 
 
@@ -88,10 +90,6 @@
                     <li class="list-inline-item"><a href="https://orcid.org/0000-0002-9181-0126"><i class="fab fa-orcid"></i></a></li>
 <!--                    <li class="list-inline-item"><a href="https://scholar.google.com/citations?user=9RU1uwcAAAAJ&hl=en"><i class="ai ai-google-scholar ai-2x"></i></a></li>-->
 <!--                    <li class="list-inline-item"><a href="https://mi2-warsaw.github.io/"><i class="fab fa-university"></i></a></li>-->
-
-
-                    <!--                    <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li>   -->
-<!--                    <li class="list-inline-item last-item"><a href="#"><i class="fab fa-codepen"></i></a></li>                -->
                 </ul>
                 <a class="btn btn-cta-secondary"
                    href="https://docs.google.com/forms/d/e/1FAIpQLSdQUGA77DS4pRRoZnhwHosl005Uu9qy2HuiPr0o6o9cnAbJyg/viewform?usp=sf_link"
@@ -99,29 +97,20 @@
                 </div>
             </div><!--//profile-->
 
+            <!--Navigation bar-->
+            <div id="nav-placeholder">
 
-<!--            <div class="profile-content">-->
-<!--                <a class="btn btn-cta-primary float-left"-->
-<!--                   href="#"-->
-<!--                > Home </a>-->
-<!--                <a class="btn btn-cta-primary float-left"-->
-<!--                   href="#"> Posts </a>-->
-<!--                <a class="btn btn-cta-primary float-left"-->
-<!--                   href="#"> Research </a>-->
-<!--                <a class="btn btn-cta-primary float-left"-->
-<!--                   href="#"-->
-<!--                > Projects </a>-->
-<!--                <a class="btn btn-cta-primary float-left"-->
-<!--                   href="#"-->
-<!--                > Resume </a>-->
-<!--                <a class="btn btn-cta-primary float-left"-->
-<!--                   href="#"-->
-<!--                > Links </a>-->
-<!--                <a class="btn btn-cta-primary float-left"-->
-<!--                   href="#"-->
-<!--                > Hobbies </a>-->
-<!--            </div>-->
+            </div>
+
+            <script>
+                $(function(){
+                    $("#nav-placeholder").load("nav.html");
+                });
+            </script>
+
         </div><!--//container-->
+
+
 
 
         <!--        LinkedIn badge-->
@@ -178,134 +167,6 @@
 
 
 
-                <!--               <section class="latest section">-->
-<!--                    <div class="section-inner">-->
-<!--                        <h2 class="heading">Latest Projects</h2>-->
-<!--                        <div class="content">    -->
-<!--                                               -->
-<!--                            <div class="item featured text-center">-->
-<!--                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/" target="_blank">Appify</a></h3>-->
-<!--                                <p class="summary">The perfect Bootstrap 4 admin template for app developers</p>-->
-<!--                                <div class="featured-image has-ribbon">-->
-<!--                                    <a href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/" target="_blank">-->
-<!--                                    <img class="img-fluid project-image" src="assets/images/projects/project-featured.jpg" alt="project name" />-->
-<!--                                    </a>-->
-<!--                                    <div class="ribbon">-->
-<!--                                        <div class="text">New</div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                    -->
-<!--                                <div class="desc text-left">                                    -->
-<!--                                    <p>You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>-->
-<!--                                </div>&lt;!&ndash;//desc&ndash;&gt;         -->
-<!--                                <a class="btn btn-cta-secondary" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/velocity-bootstrap-theme-for-startup-products/" target="_blank"><i class="fas fa-thumbs-up"></i> Back my project</a>                 -->
-<!--                            </div>&lt;!&ndash;//item&ndash;&gt;-->
-<!--                            <hr class="divider" />-->
-<!--                            <div class="item row">-->
-<!--                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">-->
-<!--                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />-->
-<!--                                </a>-->
-<!--                                <div class="desc col-md-8 col-12">-->
-<!--                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">Instance - Bootstrap 4 Portfolio Theme for Aspiring Full Stack Developers</a></h3>-->
-<!--                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>-->
-<!--                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>-->
-<!--                                </div>&lt;!&ndash;//desc&ndash;&gt;                          -->
-<!--                            </div>&lt;!&ndash;//item&ndash;&gt;-->
-<!--                            -->
-<!--                            <div class="item row">-->
-<!--                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">-->
-<!--                                <img class="img-fluid project-image" src="assets/images/projects/project-2.png" alt="project name" />-->
-<!--                                </a>-->
-<!--                                <div class="desc col-md-8 col-12">-->
-<!--                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">DevStudio - Bootstrap 4 Theme for WebDev Agencies and Freelance Developers</a></h3>-->
-<!--                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>-->
-<!--                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>-->
-<!--                                </div>&lt;!&ndash;//desc&ndash;&gt;                          -->
-<!--                            </div>&lt;!&ndash;//item&ndash;&gt;-->
-<!--                            -->
-<!--                             <div class="item row">-->
-<!--                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/" target="_blank">-->
-<!--                                <img class="img-fluid project-image" src="assets/images/projects/project-3.png" alt="project name" />-->
-<!--                                </a>-->
-<!--                                <div class="desc col-md-8 col-12">-->
-<!--                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/" target="_blank">Startup Kit - Bootstrap 4 Theme for SaaS Startups</a></h3>-->
-<!--                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>-->
-<!--                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>-->
-<!--                                </div>&lt;!&ndash;//desc&ndash;&gt;                          -->
-<!--                            </div>&lt;!&ndash;//item&ndash;&gt;-->
-<!--                            -->
-<!--                            <div class="item row">-->
-<!--                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">-->
-<!--                                <img class="img-fluid project-image" src="assets/images/projects/project-4.png" alt="project name" />-->
-<!--                                </a>-->
-<!--                                <div class="desc col-md-8 col-12">-->
-<!--                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">Nova Pro - Bootstrap 4 Theme for Mobile Startups</a></h3>-->
-<!--                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus.</p>-->
-<!--                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>-->
-<!--                                </div>&lt;!&ndash;//desc&ndash;&gt;                          -->
-<!--                            </div>&lt;!&ndash;//item&ndash;&gt;                            -->
-<!--                            <div class="item row">-->
-<!--                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/delta-bootstrap-theme-for-mobile-apps/" target="_blank">-->
-<!--                                <img class="img-fluid project-image" src="assets/images/projects/project-5.png" alt="project name" />-->
-<!--                                </a>-->
-<!--                                <div class="desc col-md-8 col-12">-->
-<!--                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/delta-bootstrap-theme-for-mobile-apps/" target="_blank">Delta - Bootstrap 4 Theme for Promoting Mobile Apps</a></h3>-->
-<!--                                    <p class="mb-2"> You can put one of your secondary projects here. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>-->
-<!--                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/delta-bootstrap-theme-for-mobile-apps/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>-->
-<!--                                </div>&lt;!&ndash;//desc&ndash;&gt;                          -->
-<!--                            </div>&lt;!&ndash;//item&ndash;&gt;-->
-<!--                            -->
-<!--                        </div>&lt;!&ndash;//content&ndash;&gt;  -->
-<!--                    </div>&lt;!&ndash;//section-inner&ndash;&gt;                -->
-<!--                </section>&lt;!&ndash;//section&ndash;&gt;-->
-                
-<!--                <section class="projects section">-->
-<!--                    <div class="section-inner">-->
-<!--                        <h2 class="heading">Other Projects</h2>-->
-<!--                        <div class="content">-->
-<!--                            <div class="item">-->
-<!--                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/" target="_blank">Pillar - Free Bootstrap 4 Resume/CV Template for Developers</a> <span class="badge badge-theme">Free</span></h3>-->
-<!--                                <p class="summary">Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.</p>-->
-<!--                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>-->
-<!--                            </div>&lt;!&ndash;//item&ndash;&gt;-->
-<!--                            <div class="item">-->
-<!--                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank">DevBlog - Free Bootstrap 4 Blog Template for Developers</a> <span class="badge badge-theme">Free</span></h3>-->
-<!--                                <p class="summary">Provide a brief description of your project. Maecenas ornare ultricies risus, in fermentum augue consectetur in. Vestibulum vitae mauris iaculis, sollicitudin velit in, molestie nulla. </p>-->
-<!--                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>-->
-<!--                            </div>&lt;!&ndash;//item&ndash;&gt;-->
-<!--                            <div class="item">-->
-<!--                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/" target="_blank">Nova - Free App Landing Page Template for App Developers</a> <span class="badge badge-theme">Free</span></h3>-->
-<!--                                <p class="summary">Provide a brief description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel purus enim. Etiam tortor felis, fermentum ac ultrices sed.</p>-->
-<!--                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>-->
-<!--                            </div>&lt;!&ndash;//item&ndash;&gt;-->
-<!--                            -->
-<!--                            <a class="btn btn-cta-secondary" href="#">More on CoderWall <i class="fas fa-chevron-right"></i></a>-->
-<!--                            -->
-<!--                        </div>&lt;!&ndash;//content&ndash;&gt;  -->
-<!--                    </div>&lt;!&ndash;//section-inner&ndash;&gt;                 -->
-<!--                </section>&lt;!&ndash;//section&ndash;&gt;-->
-                
-<!--                <section class="experience section">-->
-<!--                    <div class="section-inner">-->
-<!--                        <h2 class="heading">Work Experience</h2>-->
-<!--                        <div class="content">-->
-<!--                            <div class="item">-->
-<!--                                <h3 class="title">Co-Founder & Lead Developer - <span class="place"><a href="#">Startup Hub</a></span> <span class="year">(2014 - Present)</span></h3>-->
-<!--                                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>-->
-<!--                            </div>&lt;!&ndash;//item&ndash;&gt;-->
-<!--                            <div class="item">-->
-<!--                                <h3 class="title">Software Engineer - <span class="place"><a href="#">Google</a></span> <span class="year">(2013 - 2014)</span></h3>-->
-<!--                                <p>Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>-->
-<!--                            </div>&lt;!&ndash;//item&ndash;&gt;-->
-<!--                            -->
-<!--                            <div class="item">-->
-<!--                                <h3 class="title">Software Engineer - <span class="place"><a href="#">eBay</a></span> <span class="year">(2012 - 2013)</span></h3>-->
-<!--                                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>-->
-<!--                            </div>&lt;!&ndash;//item&ndash;&gt;-->
-<!--                            -->
-<!--                        </div>&lt;!&ndash;//content&ndash;&gt;  -->
-<!--                    </div>&lt;!&ndash;//section-inner&ndash;&gt;                 -->
-<!--                </section>&lt;!&ndash;//section&ndash;&gt;-->
 
             </div><!--//primary-->
             <div class="secondary col-lg-4 col-12">
@@ -326,6 +187,8 @@
                 <aside class="info aside section">
                     <div class="section-inner">
                         <h2 class="heading"> Work Experience </h2>
+                        <h5> Companies </h5>
+
                         <div>
                             <ul class="list-unstyled">
                                 <li class="list-inline-item"> <img width="80%" src="https://media-exp1.licdn.com/dms/image/C4E0BAQHPPXH0PrISgQ/company-logo_100_100/0?e=1594857600&v=beta&t=9uW4g8CrOxcK1u6uxuoLOVnRj2Jsip8vTerz2O3FcOE"></li>
@@ -336,7 +199,12 @@
                                 <li class="list-inline-item"> <img width="80%" src="https://media-exp1.licdn.com/dms/image/C4E0BAQHhQbL4bs2GnA/company-logo_100_100/0?e=1594857600&v=beta&t=Htlq4A2FHeMOtjqgQiN2Ssyo8N_HnkQRpIz2gyjRMNo"></li>
 
                             </ul>
-
+                            <h5> Countries </h5>
+                            <svg width="20%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path fill="#EEE" d="M32 5H4C1.791 5 0 6.791 0 9v9h36V9c0-2.209-1.791-4-4-4z"/><path fill="#DC143C" d="M0 27c0 2.209 1.791 4 4 4h28c2.209 0 4-1.791 4-4v-9H0v9z"/></svg>
+                            &nbsp;
+                            <svg width="20%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path fill="#00247D" d="M0 9.059V13h5.628zM4.664 31H13v-5.837zM23 25.164V31h8.335zM0 23v3.941L5.63 23zM31.337 5H23v5.837zM36 26.942V23h-5.631zM36 13V9.059L30.371 13zM13 5H4.664L13 10.837z"/><path fill="#CF1B2B" d="M25.14 23l9.712 6.801c.471-.479.808-1.082.99-1.749L28.627 23H25.14zM13 23h-2.141l-9.711 6.8c.521.53 1.189.909 1.938 1.085L13 23.943V23zm10-10h2.141l9.711-6.8c-.521-.53-1.188-.909-1.937-1.085L23 12.057V13zm-12.141 0L1.148 6.2C.677 6.68.34 7.282.157 7.949L7.372 13h3.487z"/><path fill="#EEE" d="M36 21H21v10h2v-5.836L31.335 31H32c1.117 0 2.126-.461 2.852-1.199L25.14 23h3.487l7.215 5.052c.093-.337.158-.686.158-1.052v-.058L30.369 23H36v-2zM0 21v2h5.63L0 26.941V27c0 1.091.439 2.078 1.148 2.8l9.711-6.8H13v.943l-9.914 6.941c.294.07.598.116.914.116h.664L13 25.163V31h2V21H0zM36 9c0-1.091-.439-2.078-1.148-2.8L25.141 13H23v-.943l9.915-6.942C32.62 5.046 32.316 5 32 5h-.663L23 10.837V5h-2v10h15v-2h-5.629L36 9.059V9zM13 5v5.837L4.664 5H4c-1.118 0-2.126.461-2.852 1.2l9.711 6.8H7.372L.157 7.949C.065 8.286 0 8.634 0 9v.059L5.628 13H0v2h15V5h-2z"/><path fill="#CF1B2B" d="M21 15V5h-6v10H0v6h15v10h6V21h15v-6z"/></svg>
+                            &nbsp;
+                            <svg width="20%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path fill="#EF2B2D" d="M10 5H4C1.791 5 0 6.791 0 9v6h10V5zm22 0H16v10h20V9c0-2.209-1.791-4-4-4zM10 31H4c-2.209 0-4-1.791-4-4v-6h10v10zm22 0H16V21h20v6c0 2.209-1.791 4-4 4z"/><path fill="#002868" d="M14.5 5h-2.944l-.025 11.5H0v3h11.525L11.5 31h3V19.5H36v-3H14.5z"/><path fill="#EEE" d="M14.5 31H16V21h20v-1.5H14.5zM16 5h-1.5v11.5H36V15H16zm-4.5 0H10v10H0v1.5h11.5zM0 19.5V21h10v10h1.5V19.5z"/></svg>
                         </div>
                     </div>
                 </aside>
